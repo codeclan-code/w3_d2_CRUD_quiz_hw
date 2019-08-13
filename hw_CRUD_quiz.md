@@ -32,7 +32,7 @@ Q6. Why do we put a guard (an `if` clause) on the `@id` attribute in the constru
 
 Q7. Why are some of the CRUD actions represented by instance methods, and others by class methods?
 
-**Class methods are used when the method is applied to the OBJECTS as opposed to an individual object**
+**Class methods are used when the method is applied TO the OBJECTS (e.g. all rows/objects) as opposed to instance methods invoked BY an individual object instance**
 
 Q8. What type of data structure is returned by calls to `db.exec_prepared()`? In the `save` method, how do we access the id from the returned data structure?
 
